@@ -1,13 +1,14 @@
 import logo from './logo.svg';
 import './App.css';
-// import HomePageRight from './Components/HomePageRight';
+import HomePageLeft from './Components/HomePageLeft';
+
 
 
 function App() {
   return (
     <div className="App">
  
-{/* <HomePageRight/> */}
+<HomePageLeft/>
     </div>
   );
 }
