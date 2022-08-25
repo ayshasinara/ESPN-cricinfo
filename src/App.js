@@ -1,18 +1,30 @@
-import logo from './logo.svg';
+
 import './App.css';
-import RightPartH from './Components/RightPartH';
+
+import { SchedualCard } from './Components/Schedual/SchedualCard';
+import { ChakraProvider } from '@chakra-ui/react'
 
 
 
 
 
+import Navbar from './Components/Navbar';
+import Footer from './Pages/Footer';
 
 
 function App() {
   return (
     <div className="App">
 
-<RightPartH/>
+
+
+
+<Footer/>
+     {/* <Navbar/> */}
+
+
+
+     <Navbar/>
     </div>
   );
 }
