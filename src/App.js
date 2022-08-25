@@ -1,7 +1,9 @@
 
 import './App.css';
+
 import { SchedualCard } from './Components/Schedual/SchedualCard';
 import { ChakraProvider } from '@chakra-ui/react'
+
 
 
 
@@ -13,6 +15,7 @@ import Footer from './Pages/Footer';
 function App() {
   return (
     <div className="App">
+
 
 
 
