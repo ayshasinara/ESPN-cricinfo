@@ -1,5 +1,7 @@
-import logo from './logo.svg';
+
 import './App.css';
+import { SchedualCard } from './Components/Schedual/SchedualCard';
+import { ChakraProvider } from '@chakra-ui/react'
 
 
 
@@ -13,10 +15,13 @@ function App() {
     <div className="App">
 
 
+
 <Footer/>
      {/* <Navbar/> */}
 
 
+
+     <Navbar/>
     </div>
   );
 }
