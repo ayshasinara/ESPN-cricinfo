@@ -11,14 +11,14 @@ export const SchedualCard = () => {
             <Box m = "8px 0px">
                 <Box display="flex" gap="2px" justifyContent="space-between" m="0px 0px 4px">
                     <Box display="flex" gap="2px">
-                        <Image w="20px" h="20px" alt="t1"/>
+                        <Image src = "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_80/lsci/db/PICTURES/CMS/325900/325974.png" w="20px" h="20px" alt="t1"/>
                         <Text fontWeight="bold" fontSize="12px">BR-W</Text>
                     </Box>
                     <Text fontSize="14px"><span style={{ fontSize:"10px"}}>(86/100 balls, T:120)</span>  122/2</Text>
                 </Box>
                 <Box display="flex" gap="2px" justifyContent="space-between" m="0px 0px 4px">
                 <Box display="flex" gap="2px" >
-                        <Image w="20px" h="20px" alt="t2"/>
+                        <Image src="https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_80/lsci/db/PICTURES/CMS/313400/313482.logo.png" w="20px" h="20px" alt="t2"/>
                         <Text fontWeight="bold" fontSize="12px">GAW-W</Text>
                 </Box>
                 <Text fontSize="14px">119/9</Text>
