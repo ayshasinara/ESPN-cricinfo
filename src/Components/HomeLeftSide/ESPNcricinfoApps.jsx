@@ -48,9 +48,6 @@ const HeadingWrapper = styled.div`
     padding-bottom: 8px;
     padding-left: 16px;
     border-bottom: 0.1px solid #eeeff2;
-
-   
-  
 `
 const FlexWrapper = styled.div`
 padding:5px;

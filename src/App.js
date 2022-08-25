@@ -1,21 +1,18 @@
 import logo from './logo.svg';
 import './App.css';
+import RightPartH from './Components/RightPartH';
 
 
 
 
-import Navbar from './Components/Navbar';
+
 
 
 function App() {
   return (
     <div className="App">
 
-
-
-     <Navbar/>
-
-
+<RightPartH/>
     </div>
   );
 }
