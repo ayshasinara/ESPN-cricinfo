@@ -5,7 +5,7 @@ import NewsHeadlines from './homeRightSide/NewsHeadlines'
 
 function RightPartH() {
   return (
-    <div>
+    <div style={{'width':'25%'}}>
 
 
 
