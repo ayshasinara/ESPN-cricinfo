@@ -1,7 +1,14 @@
 import React from 'react'
-
-export const Carousel1 = () => {
+import Carousel from 'react-elastic-carousel';
+import { SchedualCard } from './SchedualCard';
+export const Carousel1 = ({match}) => {
   return (
-    <div>Carousel1</div>
+    <div>
+      <Carousel itemsToShow={1}>
+      {match.map((item)=>{
+      return <SchedualCard key = {item.id} item={item}/>
+    })}
+      </Carousel>
+    </div>
   )
 }
