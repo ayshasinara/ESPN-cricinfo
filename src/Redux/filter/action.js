@@ -7,14 +7,13 @@ return axios
 .get("http://localhost:3004/TopEvenet")
 .then ((r)=>{
     dispatch({type: types.GET_DATA_SUCCESS, payload: r.data});
-    console.log(r.data)
 })
 .catch((e)=>{
     dispatch({type: types.GET_DATA_ERROR, payload: e});
 });
 }
 
-const filterData = (legue,payload)=>(dispatch)=>{
+const filterData = (legue, payload)=>(dispatch)=>{
     dispatch({type: types.FILTER_DATA_REQUEST});
     return axios
     .get(`http://localhost:3004/TopEvenet?legue=${legue}`, payload)

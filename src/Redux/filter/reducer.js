@@ -14,6 +14,12 @@ const reducer = (state = initalstate, action)=>{
             return {...state,isLoading:false, events:payload};
         case types.GET_DATA_ERROR:
             return {...state,isLoading:false, isError:true};
+        case types.FILTER_DATA_REQUEST:
+            return {...state};
+        case types.FILTER_DATA_SUCCESS:
+            return {...state, events:payload};
+        case types.FILTER_DATA_ERROR:
+            return { ...state}
         default:
             return state;
     }
