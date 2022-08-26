@@ -8,7 +8,7 @@ import QuickLinks from './HomeLeftSide/QuickLinks'
 
 function HomePageLeft() {
   return (
-    <div> 
+    <div > 
 <AskQuestionBox/>
         <KeySeries/>
     <QuickLinks/>
