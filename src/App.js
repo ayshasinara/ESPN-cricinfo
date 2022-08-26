@@ -1,30 +1,23 @@
-
 import './App.css';
+import MajorLeagueTournament from './Components/LivescorePageComponent/MajorLeagueTournament';
 
-import { SchedualCard } from './Components/Schedual/SchedualCard';
-import { ChakraProvider } from '@chakra-ui/react'
+import LiveScores from './Pages/LiveScores';
+
+import NepalKenya from './Components/LivescorePageComponent/NepalKenya';
 
 
 
-
-
-import Navbar from './Components/Navbar';
-import Footer from './Pages/Footer';
+// import Navbar from './Components/Navbar';
+// import Footer from './Pages/Footer';
 
 
 function App() {
   return (
     <div className="App">
+  
+ <LiveScores/> 
 
-
-
-
-<Footer/>
-     {/* <Navbar/> */}
-
-
-
-     <Navbar/>
+{/* <NepalKenya/> */}
     </div>
   );
 }
