@@ -30,6 +30,7 @@ const HeadingWrapper = styled.div`
     padding-top:8px;
     padding-bottom: 8px;
     padding-left: 16px;
+   
     border-bottom: 0.1px solid #eeeff2;
 
 height: 180px;
