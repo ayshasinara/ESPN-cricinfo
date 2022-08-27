@@ -1,20 +1,20 @@
 import React, { useEffect } from 'react'
 import { useDispatch, useSelector } from 'react-redux';
-import { getNewsData } from '../../Redux/action';
+import { getFeaturesData} from '../../Redux/action';
 import styled from 'styled-components';
-import SingleNewsComponent from './SingleNewsComponent'
-function NewsContainer() {
-  const data = useSelector(state => state.newsdata)
+import SingleNewsComponent from './SingleFeaturesComponent'
+function FeaturesComponents() {
+  const data = useSelector(state => state.featuresdata)
   console.log(data)
   const dispatch = useDispatch()
   useEffect(() => {
-    dispatch(getNewsData());
+    dispatch(getFeaturesData());
   }, [])
 
   return (
     <MainWrapper>
       <HeadingWrapper>
-        Latest News
+      Features
       </HeadingWrapper>
       <div>
         {data.map((iteam) => {
@@ -26,7 +26,7 @@ function NewsContainer() {
   )
 }
 
-export default NewsContainer
+export default FeaturesComponents
 const MainWrapper = styled.div`
     margin: 30px 0px 20px 20px;
     width:70%;

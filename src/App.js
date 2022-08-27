@@ -1,7 +1,8 @@
 import './App.css';
-import NewsContainer from './Components/news/NewsContainer';
-import MenCompetition from './Components/ResultPage/MenCompetition';
-import Result from './Pages/Result';
+import Features from './Pages/Features';
+
+
+
 
 
 
@@ -11,7 +12,8 @@ function App() {
   return (
     <div className="App">
 
-<NewsContainer/>
+      <Features />
+
     </div>
   );
 }
