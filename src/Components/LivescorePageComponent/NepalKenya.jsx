@@ -11,7 +11,7 @@ function NepalKenya() {
         flag1:"https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/313100/313146.logo.png",
         flag2:"https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/319900/319958.png",
 }
-console.log(data)
+
   return (
     <MainWrapper>
          <HeadingWrapper>

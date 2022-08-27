@@ -9,7 +9,7 @@ import SingleComponentsMajor from './SingleComponentsMajor'
 function MajorLeagueTournament() {
   const dispatch=useDispatch()
   const data=useSelector(state=>state.majorTournament)
-  console.log(data)
+  
   useEffect(() =>{
     dispatch(getDataMajor());
   },[])

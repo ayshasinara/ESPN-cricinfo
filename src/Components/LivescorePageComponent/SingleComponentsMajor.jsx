@@ -3,7 +3,7 @@ import SubComponent from './SubComponent'
 import styled from 'styled-components'
 import SubcomponentMajorLeagueTournament from './SubcomponentMajorLeagueTournament'
 function SingleComponentsMajor({iteam}) {
-    console.log(iteam)
+   
   return (
     <div style={{ "border":"0.1px solid #eeeff2", "width":"100%"}}>
         <HeadingWrapper>

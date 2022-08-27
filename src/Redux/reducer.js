@@ -18,7 +18,7 @@ const reducer =(state=initialState,action)=>{
                 isError: false,
             }
             case types.GET_TOPEVENT_SUCCESS:
-                // console.log(payload)
+          
                 return{
                     ...state,
                     isLoading:false,
@@ -38,7 +38,7 @@ const reducer =(state=initialState,action)=>{
                 isError: false,
             }
             case types.GET_MAJOR_SUCCESS:
-                // console.log(payload)
+               
                 return{
                     ...state,
                     isLoading:false,
@@ -58,7 +58,7 @@ const reducer =(state=initialState,action)=>{
                             isError: false,
                         }
                         case types.GET_NEWS_SUCCESS:
-                            // console.log(payload)
+                            
                             return{
                                 ...state,
                                 isLoading:false,
@@ -78,7 +78,7 @@ const reducer =(state=initialState,action)=>{
                             isError: false,
                         }
                         case types.GET_FEATURES_SUCCESS:
-                            // console.log(payload)
+                            
                             return{
                                 ...state,
                                 isLoading:false,
