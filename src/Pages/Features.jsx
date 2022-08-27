@@ -1,19 +1,14 @@
 import React from 'react'
-import NewsContainer from '../Components/news/NewsContainer'
+import FeaturesComponents from '../Components/FeaturesPage/FeaturesComponents'
 import RightPartH from '../Components/RightPartH'
 
-function News() {
+function Features() {
   return (
-    <div>
     <div style={{'display':'flex'}}>
-    <NewsContainer/>
+    <FeaturesComponents/>
     <RightPartH/>
     </div>
-   
-
-    </div>
-    
   )
 }
 
-export default News
+export default Features
