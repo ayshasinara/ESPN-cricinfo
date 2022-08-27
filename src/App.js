@@ -1,4 +1,5 @@
 import './App.css';
+<<<<<<< HEAD
 // import MenCompetition from './Components/ResultPage/MenCompetition';
 // import Result from './Pages/Result';
 
@@ -16,6 +17,20 @@ function App() {
   return (
     <div className="App">
 <Navbar/>
+=======
+import MenCompetition from './Components/ResultPage/MenCompetition';
+import Result from './Pages/Result';
+
+
+
+
+
+function App() {
+  return (
+    <div className="App">
+
+<Result/>
+>>>>>>> 4846399f8fdb276e27716daaf662acd06cd21d22
     </div>
   );
 }

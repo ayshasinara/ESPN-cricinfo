@@ -7,7 +7,7 @@ return (
 export default function Footer() {
 return (
 <Container as={Stack} maxW={'7xl'} py={10} marginTop={100} >
-          <SimpleGrid columns={{ base: 1, sm: 2, md: 4,lg:5 }} width="95%" border="1px solid #dfdfe1" shadow={"lg"}  borderRadius="15px" padding="1rem" spacing={8}>
+          <SimpleGrid columns={{ base: 1, sm: 2, md: 4,lg:5 }} width="95%" margin="auto" border="1px solid #dfdfe1" shadow={"lg"}  borderRadius="15px" padding="1rem" spacing={8}>
            
            
             <Stack align={'flex-start'}>
