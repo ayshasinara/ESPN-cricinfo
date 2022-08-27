@@ -1,10 +1,6 @@
 import './App.css';
-import Features from './Pages/Features';
 
-
-
-
-
+import Navbar from './Components/Navbar';
 
 
 
@@ -12,10 +8,8 @@ function App() {
   return (
     <div className="App">
 
-      <Features />
-
-    </div>
-  );
-}
+<Navbar/>
+</div>
+)}
 
 export default App;

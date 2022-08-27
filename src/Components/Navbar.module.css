@@ -98,8 +98,9 @@ a {
   
   ul li ul {
       /* background: orange; */
+      background-color: white;
       visibility: hidden;
-    opacity: 0;
+    opacity: 1;
     /* min-width: 8rem; */
       position: absolute;
     transition: all 0.5s ease;
@@ -118,7 +119,8 @@ a {
   
   ul li ul li {
       clear: both;
-    width: 168px;
+    width: 200px;
+    opacity: 1;
   }
 /*  */
 

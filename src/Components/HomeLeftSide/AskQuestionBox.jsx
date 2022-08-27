@@ -14,7 +14,7 @@ function AskQuestionBox() {
 export default AskQuestionBox
 const MainWrapper = styled.div`
     margin: 30px ;
-    width:20%;
+    width:80%;
     padding-top: 20px;
   padding-bottom: 20px;
   border-radius: 2%;
