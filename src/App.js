@@ -1,5 +1,6 @@
 import './App.css';
-import Features from './Pages/Features';
+
+import News from './Pages/News';
 
 
 
@@ -12,8 +13,8 @@ function App() {
   return (
     <div className="App">
 
-      <Features />
 
+<News/>
     </div>
   );
 }

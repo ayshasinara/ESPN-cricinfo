@@ -44,7 +44,7 @@ team1score:76,
   team2score:"(6.3/10 ov, T:77) 80/3"  
 }
 ]
-console.log(data)
+
   return (
     <MainWrapper >
          <HeadingWrapper >

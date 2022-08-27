@@ -3,7 +3,7 @@ import React from 'react'
 
 import styled from 'styled-components'
 function SingleFeaturesComponent({iteam}) {
-    console.log(iteam)
+   
   return (
     <div style={{ "border":"0.1px solid #eeeff2", "width":"100%", 'padding':'10px'}}>
         <HeadingWrapper>

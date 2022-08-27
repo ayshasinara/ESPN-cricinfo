@@ -2,7 +2,7 @@ import React from 'react'
 import SubComponent from './SubComponent'
 import styled from 'styled-components'
 function SingleLiveTeam({iteam}) {
-    console.log(iteam)
+    
   return (
     <div style={{ "border":"0.1px solid #eeeff2", "width":"100%"}}>
         <HeadingWrapper>

@@ -5,7 +5,7 @@ import styled from 'styled-components';
 import SingleNewsComponent from './SingleFeaturesComponent'
 function FeaturesComponents() {
   const data = useSelector(state => state.featuresdata)
-  console.log(data)
+
   const dispatch = useDispatch()
   useEffect(() => {
     dispatch(getFeaturesData());

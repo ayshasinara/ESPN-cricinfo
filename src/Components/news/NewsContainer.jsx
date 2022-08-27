@@ -5,7 +5,7 @@ import styled from 'styled-components';
 import SingleNewsComponent from './SingleNewsComponent'
 function NewsContainer() {
   const data = useSelector(state => state.newsdata)
-  console.log(data)
+ 
   const dispatch = useDispatch()
   useEffect(() => {
     dispatch(getNewsData());
@@ -18,7 +18,7 @@ function NewsContainer() {
       </HeadingWrapper>
       <div>
         {data.map((iteam) => {
-          return <SingleNewsComponent iteam={iteam} ket={iteam.id} />
+          return <SingleNewsComponent iteam={iteam} key={iteam.id} />
         }
         )}
       </div>

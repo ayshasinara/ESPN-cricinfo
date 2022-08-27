@@ -11,7 +11,7 @@ function IrelandNetherlands() {
         flag1:"https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/313100/313136.logo.png",
         flag2:"https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/156800/156800.png",
 }
-console.log(data)
+
   return (
     <MainWrapper>
          <HeadingWrapper>

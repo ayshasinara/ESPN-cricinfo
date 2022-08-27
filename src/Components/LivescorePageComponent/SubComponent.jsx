@@ -2,7 +2,7 @@
 import React from 'react'
 import styled from 'styled-components'
 function SubComponent({ flag, score, team }) {
-    console.log(flag)
+
     return (
         <div style={{ "display": "flex", "justifyContent": "space-between", "width": "90%" }}>
             <div style={{ "display": "flex" }}>
