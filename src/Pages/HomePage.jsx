@@ -8,7 +8,6 @@ const HomePage = () => {
  
 
   return (
-<<<<<<< HEAD
     <div>
       <div className={styles.advertiseImg}>
         <img src="https://tpc.googlesyndication.com/simgad/4271044209677937619?" alt="ad-top" />
@@ -259,10 +258,6 @@ const HomePage = () => {
         </div>
       </div>
     </div>
-
-=======
-    <div></div>
->>>>>>> 4846399f8fdb276e27716daaf662acd06cd21d22
   )
 }
 

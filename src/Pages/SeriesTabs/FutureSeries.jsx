@@ -15,7 +15,7 @@ const Scoredescription = () => {
   return (<div >
  <div className="Main">
 <Box>
-<Box border='1 px solid #dfdfe1' borderRadius='lg' w='56.4%' marginLeft={"180px"} marginTop={""}  backgroundColor="white">
+<Box border='1 px solid #dfdfe1' borderRadius='lg' w='80%' marginLeft={"180px"} marginTop={""}  backgroundColor="white">
 <TableContainer>
 <Table variant='' colorScheme='teal'>
 <Thead>
