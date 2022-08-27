@@ -8,7 +8,7 @@ import SingleLiveTeam from './SingleLiveTeam'
 function TopEvents() {
   const dispatch=useDispatch()
   const data=useSelector(state=>state.liveScore)
-  console.log(data)
+ 
   useEffect(() =>{
     dispatch(getData());
   },[])

@@ -42,4 +42,18 @@ const getDataMajor=()=>(dispatch)=>{
             })
         }
 
-export {getData,getDataMajor,getNewsData}
+        const getFeaturesData=()=>(dispatch)=>{
+            dispatch({type:types.GET_FEATURES_REQUEST});
+            return axios.get("http://localhost:8080/featuresdata")
+            
+            .then(res=>{
+                
+                return dispatch({type:types.GET_FEATURES_SUCCESS,payload:res.data}
+                    );
+               
+                }).catch(err=>{
+                    return dispatch({type:types.GET_FEATURES_REQUEST,payload:err})
+                })
+            }
+
+export {getData,getDataMajor,getNewsData,getFeaturesData}

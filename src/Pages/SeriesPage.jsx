@@ -12,8 +12,10 @@ const SeriesPage = () => {
         <TabList
           borderBottom={"2px solid #c7c7c7"}
           background={"white"}
-          width={"55%"}
+          width={"80%"}
           marginLeft={"200px"}
+          display={"flex"}
+          justifyContent="space-around"
        
         >
           <Tab fontWeight="bold">Current Cricket</Tab>

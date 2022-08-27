@@ -2,8 +2,8 @@ import { border } from '@chakra-ui/react'
 import React from 'react'
 
 import styled from 'styled-components'
-function SingleNewsComponent({iteam}) {
-    
+function SingleFeaturesComponent({iteam}) {
+   
   return (
     <div style={{ "border":"0.1px solid #eeeff2", "width":"100%", 'padding':'10px'}}>
         <HeadingWrapper>
@@ -11,7 +11,7 @@ function SingleNewsComponent({iteam}) {
           <img src={iteam.image} style={{'width':'100%', 'height':'25vh','borderRadius':'10px' }}/>
         </div>
         <div style={{'padding':'10px'}}>
-          < NewsHeading>
+          < NewsHeading >
             {iteam.heading}
           </ NewsHeading>
  
@@ -30,7 +30,7 @@ function SingleNewsComponent({iteam}) {
   )
 }
 
-export default SingleNewsComponent
+export default SingleFeaturesComponent
 const HeadingWrapper = styled.div`
 display: flex;
 

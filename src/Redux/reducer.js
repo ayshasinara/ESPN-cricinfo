@@ -3,6 +3,7 @@ const initialState={
     liveScore:[],
     majorTournament:[],
     newsdata:[],
+    featuresdata:[],
     isLoading:false,
     isError:false
 }
@@ -17,7 +18,7 @@ const reducer =(state=initialState,action)=>{
                 isError: false,
             }
             case types.GET_TOPEVENT_SUCCESS:
-                // console.log(payload)
+          
                 return{
                     ...state,
                     isLoading:false,
@@ -37,7 +38,7 @@ const reducer =(state=initialState,action)=>{
                 isError: false,
             }
             case types.GET_MAJOR_SUCCESS:
-                // console.log(payload)
+               
                 return{
                     ...state,
                     isLoading:false,
@@ -57,7 +58,7 @@ const reducer =(state=initialState,action)=>{
                             isError: false,
                         }
                         case types.GET_NEWS_SUCCESS:
-                            // console.log(payload)
+                            
                             return{
                                 ...state,
                                 isLoading:false,
@@ -65,6 +66,26 @@ const reducer =(state=initialState,action)=>{
                                 newsdata:payload
                             }
                             case types.GET_NEWS_FAILURE:
+                                return{
+                                    ...state,
+                                    isLoading:false,
+                                    isError:false
+                                }
+                                case types.GET_FEATURES_REQUEST:
+                        return{
+                            ...state,
+                            isLoading: true,
+                            isError: false,
+                        }
+                        case types.GET_FEATURES_SUCCESS:
+                            
+                            return{
+                                ...state,
+                                isLoading:false,
+                                isError:false,
+                                featuresdata:payload
+                            }
+                            case types.GET_FEATURES_FAILURE:
                                 return{
                                     ...state,
                                     isLoading:false,

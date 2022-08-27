@@ -43,7 +43,7 @@ function NewsHeadlines() {
                 </TeamVs>
             </FlexWrapper>
             <FlexWrapper>
-                <div style={{ "color": "#04c8f5" ,"padding":'5px 0px 5px 0px'}}>
+                <div style={{ "color": "#04c8f5" ,'padding':'5px 0px 5px 0px'}}>
                     <IoIosArrowForward />
                 </div>
 
@@ -52,7 +52,7 @@ function NewsHeadlines() {
                 </TeamVs>
             </FlexWrapper>
             <FlexWrapper>
-                <div style={{ "color": "#04c8f5" ,"padding":"5px 0px 5px 0px;"}}>
+                <div style={{ "color": "#04c8f5" ,"padding":"5px 0px 5px 0px"}}>
                     <IoIosArrowForward />
                 </div>
 
