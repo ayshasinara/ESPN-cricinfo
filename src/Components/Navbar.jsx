@@ -11,10 +11,21 @@ import {
   } from "@chakra-ui/react"
 
 const Navbar = () => {
-    
     const { isOpen, onOpen, onClose } = useDisclosure();
     const { isOpen1, onOpen1, onClose1 } = useDisclosure();
     const navigate= useNavigate()
+
+    const handleLiveScore=()=>{
+        navigate("/livescores")
+    }
+
+    const handleVideo= ()=>{
+        navigate("/videos")
+    }
+
+    const handleSeries=()=>{
+        navigate("/series")
+    }
   return (
     <div className={styles.nav}>
         <div className={styles.navLeft}>
@@ -28,7 +39,7 @@ const Navbar = () => {
           {/*  */}
                     <nav role="navigation">
             <ul>
-                <li style={{backgroundColor:"#04c8f5"}}><a style={{ color:"white"}} href="#">Live Scores</a>
+                <li style={{backgroundColor:"#04c8f5"}} onClick={handleLiveScore} ><a style={{ color:"white"}}  >Live Scores</a>
                 <ul style={{boxShadow: "rgba(99, 99, 99, 0.2) 0px 2px 8px 0px", width:"200px"}}  class="dropdown">
                     <li ><a style={{ width:"300px"}}  href="#">Live Scores Home</a></li>
                     <li><a href="#">Week view</a></li>
@@ -37,7 +48,7 @@ const Navbar = () => {
                     <li><a href="#">International calender</a></li>
                     <li><a href="#">Desktop Scoreboard</a></li>
                 </ul></li>
-                <li style={{backgroundColor:"#04c8f5"}}><a style={{ color:"white"}} href="#">Series</a>
+                <li style={{backgroundColor:"#04c8f5"}} onClick={handleSeries}><a style={{ color:"white"}} >Series</a>
                 <ul style={{boxShadow: "rgba(99, 99, 99, 0.2) 0px 2px 8px 0px", width:"200px"}} class="dropdown">
                     <li><a href="#">Asia Cup</a></li>
                     <li><a href="#">Eng vs SA</a></li>
@@ -75,7 +86,7 @@ const Navbar = () => {
                     <li><a href="#">Photo Galaries</a></li>
                     <li><a href="#">Cricket Monthly</a></li>
                 </ul></li>
-                <li style={{backgroundColor:"#04c8f5"}}><a style={{ color:"white"}} href="#">Videos</a>
+                <li style={{backgroundColor:"#04c8f5"}} onClick={handleVideo}><a style={{ color:"white"}}>Videos</a>
                 <ul style={{boxShadow: "rgba(99, 99, 99, 0.2) 0px 2px 8px 0px", width:"200px"}} class="dropdown">
                     <li><a href="#">Videos Home</a></li>
                     <li><a href="#">T20 Time Out hindi</a></li>

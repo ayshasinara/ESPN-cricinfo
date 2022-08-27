@@ -10,14 +10,12 @@
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.3.0",
     "@testing-library/user-event": "^13.5.0",
-<<<<<<< HEAD
-    "constant.js": "^1.1.0",
-=======
->>>>>>> 4846399f8fdb276e27716daaf662acd06cd21d22
     "axios": "^0.27.2",
+    "constant.js": "^1.1.0",
     "framer-motion": "^6.5.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-elastic-carousel": "^0.11.5",
     "react-icons": "^4.4.0",
     "react-player": "^2.10.1",
     "react-redux": "^8.0.2",
