@@ -1,4 +1,4 @@
-import { Flex } from '@chakra-ui/react'
+
 import React from 'react'
 import IrelandNetherlands from '../Components/LivescorePageComponent/IrelandNetherlands'
 import MajorLeagueTournament from '../Components/LivescorePageComponent/MajorLeagueTournament'
