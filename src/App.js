@@ -1,19 +1,13 @@
 import './App.css';
-import NewsContainer from './Components/news/NewsContainer';
-import MenCompetition from './Components/ResultPage/MenCompetition';
-import Result from './Pages/Result';
-
-
-
+import Navbar from './Components/Navbar';
 
 
 function App() {
   return (
     <div className="App">
-
-<NewsContainer/>
-    </div>
-  );
+<Navbar/>
+</div>
+)
 }
 
 export default App;
