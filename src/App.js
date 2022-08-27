@@ -1,10 +1,6 @@
-
 import './App.css';
-
-import { SchedualCard } from './Components/Schedual/SchedualCard';
-import { ChakraProvider } from '@chakra-ui/react'
-
-
+// import MenCompetition from './Components/ResultPage/MenCompetition';
+// import Result from './Pages/Result';
 
 
 
@@ -20,11 +16,6 @@ function App() {
   return (
     <div className="App">
 <Navbar/>
-<HomePage />
-
-
-
-     
     </div>
   );
 }
