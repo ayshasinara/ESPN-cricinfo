@@ -27,4 +27,19 @@ const getDataMajor=()=>(dispatch)=>{
             return dispatch({type:types.GET_MAJOR_REQUEST,payload:err})
         })
     }
-export {getData,getDataMajor}
+
+    const getNewsData=()=>(dispatch)=>{
+        dispatch({type:types.GET_NEWS_REQUEST});
+        return axios.get("http://localhost:8080/newsdata")
+        
+        .then(res=>{
+            
+            return dispatch({type:types.GET_NEWS_SUCCESS,payload:res.data}
+                );
+           
+            }).catch(err=>{
+                return dispatch({type:types.GET_NEWS_REQUEST,payload:err})
+            })
+        }
+
+export {getData,getDataMajor,getNewsData}
