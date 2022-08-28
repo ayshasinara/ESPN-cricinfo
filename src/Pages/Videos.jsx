@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import styles from "./Videos.module.css"
 import ReactPlayer from 'react-player'
 import Carousalbox from '../Components/Carousal/Carousal';
@@ -7,6 +7,9 @@ import RightPartH from '../Components/RightPartH';
 import SubNavbar from '../Components/SubNavbar';
 
 const Videos = () => {
+    useEffect(() => {
+        window.scrollTo(0, 0)
+      }, [])
     const data ={
         title:"Video",
         subTitle:"Video home",

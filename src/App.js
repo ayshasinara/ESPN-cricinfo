@@ -20,8 +20,6 @@ function App() {
       <MainRoutes/>
       <Footer/>
       <BottomFooter/>
-      {/* <Scorecard/> */}
-
       </div>
   );
 
