@@ -1,10 +1,11 @@
 import React, { useEffect } from 'react'
 import { useDispatch, useSelector } from 'react-redux';
-import { getNewsData } from '../../Redux/action';
+
 import styled from 'styled-components';
+import { getNewsData } from '../../Redux/data/action';
 import SingleNewsComponent from './SingleNewsComponent'
 function NewsContainer() {
-  const data = useSelector(state => state.newsdata)
+  const data = useSelector(state => state.AppDataReducer.newsdata)
  
   const dispatch = useDispatch()
   useEffect(() => {

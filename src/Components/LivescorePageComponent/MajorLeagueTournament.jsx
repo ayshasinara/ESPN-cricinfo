@@ -1,14 +1,15 @@
 import React, { useEffect } from 'react'
 import { useDispatch, useSelector } from 'react-redux'
 import styled from 'styled-components'
-import { getDataMajor } from '../../Redux/action'
+import { getDataMajor } from '../../Redux/data/action'
+
 import SingleComponentsMajor from './SingleComponentsMajor'
 
 
 
 function MajorLeagueTournament() {
   const dispatch=useDispatch()
-  const data=useSelector(state=>state.majorTournament)
+  const data=useSelector(state=>state.AppDataReducer.majorTournament)
   
   useEffect(() =>{
     dispatch(getDataMajor());

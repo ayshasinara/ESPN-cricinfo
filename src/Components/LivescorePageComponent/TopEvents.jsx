@@ -1,13 +1,14 @@
 import React, { useEffect } from 'react'
 import { useDispatch, useSelector } from 'react-redux'
 import styled from 'styled-components'
-import { getData } from '../../Redux/action'
+import { getData } from '../../Redux/data/action'
+
 import SingleLiveTeam from './SingleLiveTeam'
 
 
 function TopEvents() {
   const dispatch=useDispatch()
-  const data=useSelector(state=>state.liveScore)
+  const data=useSelector(state=>state.AppDataReducer.liveScore)
  
   useEffect(() =>{
     dispatch(getData());
