@@ -14,7 +14,7 @@ dispatch(getUpComingData())
 },[])
   return (
     <div >
-        <div style={{ 'backgroundColor': '#edeaf5', 'width': '120px', 'borderRadius': '10px', 'marginLeft': '45%', 'marginTop': '40px' }}>
+        <div style={{ 'backgroundColor': '#edeaf5', 'width': '120px', 'borderRadius': '10px', 'marginLeft': '45%' }}>
                         Sun, 28 Aug
                     </div>
     <MainWrapper>
