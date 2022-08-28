@@ -1,3 +1,4 @@
+
 import { applyMiddleware, legacy_createStore as createStore,
     combineReducers } from "redux"
 import thunk from "redux-thunk"
@@ -10,4 +11,6 @@ const rootReducer = combineReducers({filter,reducer});
 const store = createStore(
     rootReducer ,
     composeEnhancers(applyMiddleware(thunk)),)
+
     export  {store};
+

@@ -20,6 +20,7 @@ const reducer = (state = initalstate, action)=>{
         case types.GET_DATA_ERROR:
             return {...state,isLoading:false, isError:true};
 
+
             case types.MVP_DATA_REQUEST:
                 return {...state,isLoading:true};
             case types.MVP_DATA_SUCCESS:

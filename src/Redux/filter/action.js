@@ -13,6 +13,7 @@ return axios
 });
 }
 
+
 const mvpData = () => (dispatch) =>{
     dispatch({type: types.MVP_DATA_REQUEST});
     return axios
@@ -73,7 +74,6 @@ const mvpData = () => (dispatch) =>{
                     });
                     }
 
-
 const filterData = (legue, payload)=>(dispatch)=>{
     dispatch({type: types.FILTER_DATA_REQUEST});
     return axios
@@ -93,4 +93,5 @@ export {
     bowlingData,
     batting2Data,
     bowling2Data
+
 }
