@@ -1,16 +1,24 @@
 import './App.css';
-import Features from './Pages/Features';
-import LiveScorePage from './Pages/LiveScorePage';
+
+import Navbar from './Components/Navbar';
+import MatchDetail from './Components/ScorePage/MatchDetail';
+import { Scorecard } from './Pages/Scorepage/Scorecard';
+import Footer from './Pages/Footer';
 import News from './Pages/News';
+import { SchedualFilter } from './Components/Schedual/SchedualFilter';
+import MainRoutes from './Pages/MainRoutes';
 
 
 
 function App() {
   return (
     <div className="App">
-<LiveScorePage/>
-    </div>
 
-  )
+      <Navbar/>
+      <MainRoutes/>
+      <Footer/>
+      </div>
+  );
+
 }
 export default App;

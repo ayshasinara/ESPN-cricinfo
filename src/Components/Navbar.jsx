@@ -26,6 +26,18 @@ const Navbar = () => {
     const handleSeries=()=>{
         navigate("/series")
     }
+
+    const handleTeams=()=>{
+        navigate("/teamspage")
+    }
+
+    const handleNews=()=>{
+        navigate("/news")
+    }
+
+    const handleFeatures=()=>{
+        navigate("/features")
+    }
   return (
     <div className={styles.nav}>
         <div className={styles.navLeft}>
@@ -59,7 +71,7 @@ const Navbar = () => {
                 </ul>
                 
                 </li>
-                <li style={{backgroundColor:"#04c8f5"}}><a style={{ color:"white"}} href="#">Teams</a>
+                <li style={{backgroundColor:"#04c8f5"}} onClick={handleTeams}><a style={{ color:"white"}} >Teams</a>
                 <ul style={{boxShadow: "rgba(99, 99, 99, 0.2) 0px 2px 8px 0px", width:"200px"}} class="dropdown">
                     <li><a href="#">Australia</a></li>
                     <li><a href="#">Bangladesh</a></li>
@@ -71,7 +83,7 @@ const Navbar = () => {
                     <li><a href="#">Sri Lanka</a></li>
                     <li><a href="#">West indies</a></li>
                 </ul></li>
-                <li style={{backgroundColor:"#04c8f5"}}><a style={{ color:"white"}} href="#">News</a>
+                <li style={{backgroundColor:"#04c8f5"}} onClick={handleNews}><a style={{ color:"white"}} >News</a>
                 <ul style={{boxShadow: "rgba(99, 99, 99, 0.2) 0px 2px 8px 0px", width:"200px"}} class="dropdown">
                     <li><a href="#">News Home</a></li>
                     <li><a href="#">Future of ODI's</a></li>
@@ -79,7 +91,7 @@ const Navbar = () => {
                     <li><a href="#">Technology in Cricket</a></li>
                     <li><a href="#">Racism</a></li>
                 </ul></li>
-                <li style={{backgroundColor:"#04c8f5"}}><a style={{ color:"white"}} href="#">Features</a>
+                <li style={{backgroundColor:"#04c8f5"}} onClick={handleFeatures}><a style={{ color:"white"}} >Features</a>
                 <ul style={{boxShadow: "rgba(99, 99, 99, 0.2) 0px 2px 8px 0px", width:"200px"}} class="dropdown">
                     <li><a href="#">Features Homes</a></li>
                     <li><a href="#">Writers</a></li>
