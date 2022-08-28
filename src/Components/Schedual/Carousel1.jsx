@@ -4,6 +4,8 @@ import Carousel from 'react-elastic-carousel';
 import { SchedualCard } from './SchedualCard';
 import "./carousalStyle.css"
 export const Carousel1 = ({match,data}) => {
+ 
+
 const breakPoints = [
   { width: 1, itemsToShow: 1 },
   { width: 550, itemsToShow: 2, itemsToScroll: 2, pagination: false },
@@ -25,7 +27,7 @@ const breakPoints = [
        >
       {data.length === 0 ?
         match.map((item)=>{
-      return <SchedualCard key = {item.id} item={item}/>
+      return <SchedualCard  key = {item.id} item={item}/>
     })
     :
     data.map((item)=>{

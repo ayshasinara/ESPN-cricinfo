@@ -73,7 +73,7 @@ useEffect(() =>{
                     </Box>
                     <Box >
                     <Avatar size='lg' src={match.pimg} alt="pov"/>
-                    <Box  bg="white" borderRadius="50%" w="20px" position="absolute" top="115px">
+                    <Box  bg="white" borderRadius="50%" w="20px" position="absolute" top="380px">
                     <Image borderRadius="50%" src={match.vimg} bg="white"boxSize='1.25em' />
                     </Box>
                     </Box>

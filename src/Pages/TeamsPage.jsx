@@ -10,13 +10,13 @@ const Videos = () => {
   </Box>
  <Box style={{gridDisplay:'', backgroundColor:'white' }} height='502px' display='grid'  width='75%' ml='12.4%' border='1px solid #f3f4f5'>
  <Grid templateColumns='repeat(3, 1fr)'>
-  <GridItem w='100%' h='100' border='1px solid #f3f4f5'>
-  <Grid templateColumns='repeat(2, 1fr)'>
-  <GridItem w='40%' h='70'  marginTop='10px' marginLeft='20px' >
+  <GridItem style={{display:"flex", flexDirection:"column", alignItems:"center", justifyContent:"center"}}  w='100%' h='100' border='1px solid #f3f4f5'>
+  <Grid  templateColumns='repeat(2, 1fr)'>
+  <GridItem w='40%' h='70'  marginTop='10px' style={{display:"flex", flexDirection:"column", alignItems:"center", justifyContent:"center"}}  marginLeft='20px' >
     <img style={{height:"100%" ,weight:"100%"}} src="https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/313100/313128.logo.png"/>
   </GridItem>
   <GridItem w='90%' h='70' marginTop='10px' marginLeft='-90px' >
-    <Text  marginTop='19px' marginLeft='-120px' fontWeight='bold' >India</Text>
+    <Text  marginTop='19px' margin="auto" fontWeight='bold' >India</Text>
   </GridItem>
     </Grid>
   </GridItem>

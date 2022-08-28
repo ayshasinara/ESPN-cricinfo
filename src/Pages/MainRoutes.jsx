@@ -7,6 +7,7 @@ import Videos from './Videos'
 import SeriesPage from './SeriesPage'
 import LiveScorePage from './LiveScorePage'
 import TeamsPage from "./TeamsPage"
+import { Scorecard } from './Scorepage/Scorecard'
 
 
 
@@ -26,6 +27,7 @@ const MainRoutes = () => {
         <Route path='/features' element={<Features />} />
 
         <Route path="/teamspage" element={<TeamsPage />} />
+        <Route path="/scorecard" element={<Scorecard/>} />
 
 
 
