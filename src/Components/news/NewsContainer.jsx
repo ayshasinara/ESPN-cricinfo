@@ -10,7 +10,7 @@ function NewsContainer() {
   useEffect(() => {
     dispatch(getNewsData());
   }, [])
-
+console.log(data)
   return (
     <MainWrapper>
       <HeadingWrapper>
