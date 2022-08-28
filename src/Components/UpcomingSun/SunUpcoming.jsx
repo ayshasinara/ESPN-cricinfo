@@ -1,10 +1,11 @@
 import React, { useEffect } from 'react'
 import { useDispatch, useSelector } from 'react-redux'
-import { getUpComingData } from '../../Redux/action'
+
 import SingleUpcomingComponent from './SingleUpcomingComponent'
 import styled from 'styled-components'
+import { getUpComingData } from '../../Redux/data/action'
 function SunUpcoming() {
-  const data= useSelector(state=>state.UpcomingSun)
+  const data= useSelector(state=>state.AppDataReducer.UpcomingSun)
   console.log(data)
   const dispatch =useDispatch()
   

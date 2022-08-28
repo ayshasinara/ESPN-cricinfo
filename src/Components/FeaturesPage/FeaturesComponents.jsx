@@ -1,10 +1,11 @@
 import React, { useEffect } from 'react'
 import { useDispatch, useSelector } from 'react-redux';
-import { getFeaturesData} from '../../Redux/action';
+
 import styled from 'styled-components';
+import { getFeaturesData } from '../../Redux/data/action';
 import SingleNewsComponent from './SingleFeaturesComponent'
 function FeaturesComponents() {
-  const data = useSelector(state => state.featuresdata)
+  const data = useSelector(state => state.AppDataReducer.featuresdata)
 
   const dispatch = useDispatch()
   useEffect(() => {
@@ -14,11 +15,11 @@ function FeaturesComponents() {
   return (
     <MainWrapper>
       <HeadingWrapper>
-      Features
+        Features
       </HeadingWrapper>
       <div>
         {data.map((iteam) => {
-          return <SingleNewsComponent iteam={iteam} ket={iteam.id} />
+          return <SingleNewsComponent iteam={iteam} key={iteam.id} />
         }
         )}
       </div>
@@ -29,7 +30,7 @@ function FeaturesComponents() {
 export default FeaturesComponents
 const MainWrapper = styled.div`
     margin: 30px 0px 20px 20px;
-    width:70%;
+    width:100%;
     padding-top: 20px;
 
   border-radius: 5px;
