@@ -29,7 +29,7 @@ function NewsContainer() {
 export default NewsContainer
 const MainWrapper = styled.div`
     margin: 30px 0px 20px 20px;
-    width:70%;
+    width:95%;
     padding-top: 20px;
 
   border-radius: 5px;
