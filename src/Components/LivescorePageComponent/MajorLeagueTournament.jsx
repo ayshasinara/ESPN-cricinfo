@@ -21,10 +21,10 @@ function MajorLeagueTournament() {
   </HeadingWrapper>
       <div style={{"display": "grid",
     "gridTemplateColumns": "auto auto"}}>
-  {data.map((iteam)=>{
+  {/* {data.map((iteam)=>{
     return <SingleComponentsMajor iteam={iteam} ket={iteam.id} />
   }
-  )}
+  )} */}
   </div>
     </MainWrapper>
   )

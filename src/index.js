@@ -5,32 +5,18 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { BrowserRouter } from "react-router-dom";
 import { ChakraProvider } from '@chakra-ui/react';
-<<<<<<< HEAD
 import { Provider } from 'react-redux';
 import { store } from './Redux/store';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
- 
-=======
-import { Provider } from "react-redux";
-import {store} from "./Redux/store"
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
-
->>>>>>> 5a918760cfa9c0fe10555fb9df729410a035340d
     <BrowserRouter>
     <Provider store={store}>
     <ChakraProvider>
       <App />
-<<<<<<< HEAD
       </ChakraProvider>
       </Provider>
-=======
-    </ChakraProvider>
-    </Provider>
->>>>>>> 5a918760cfa9c0fe10555fb9df729410a035340d
     </BrowserRouter>
 
 );
