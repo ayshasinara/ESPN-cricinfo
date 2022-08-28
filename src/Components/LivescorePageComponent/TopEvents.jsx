@@ -19,10 +19,10 @@ function TopEvents() {
   </HeadingWrapper>
       <div style={{"display": "grid",
     "gridTemplateColumns": "auto auto"}}>
-  {data.map((iteam)=>{
+  {/* {data.map((iteam)=>{
     return <SingleLiveTeam iteam={iteam} ket={iteam.id} />
   }
-  )}
+  )} */}
   </div>
     </MainWrapper>
   )
