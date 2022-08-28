@@ -5,7 +5,9 @@ import styles from "./HomePage.module.css"
 import ReactPlayer from 'react-player'
 
 const HomePage = () => {
- 
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
 
   return (
     <div>

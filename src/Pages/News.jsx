@@ -4,6 +4,9 @@ import RightPartH from '../Components/RightPartH'
 import SubNavbar from '../Components/SubNavbar'
 
 function News() {
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
   const data ={
     title:"News",
     subTitle:"News home",
