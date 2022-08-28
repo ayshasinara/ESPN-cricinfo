@@ -6,6 +6,7 @@ import Footer from './Pages/Footer';
 
 import { SchedualFilter } from './Components/Schedual/SchedualFilter';
 import MainRoutes from './Pages/MainRoutes';
+import { BottomFooter } from './Components/BottomFooter';
 
 
 
@@ -18,8 +19,7 @@ function App() {
       <Navbar/>
       <MainRoutes/>
       <Footer/>
-      {/* <Scorecard/> */}
-
+      <BottomFooter/>
       </div>
   );
 

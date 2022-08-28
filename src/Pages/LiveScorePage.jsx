@@ -1,9 +1,12 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import UpComing from './UpComing'
 import Result from './Result'
 import LiveScores from './LiveScores'
 import styled from 'styled-components'
 function LiveScorePage() {
+    useEffect(() => {
+        window.scrollTo(0, 0)
+      }, [])
     const [liveScore, setLiveScore] = useState(true)
     const [upComing, setUpComing] = useState(false)
     const [result, setResult] = useState(false)

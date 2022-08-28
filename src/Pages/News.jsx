@@ -1,9 +1,12 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import NewsContainer from '../Components/news/NewsContainer'
 import RightPartH from '../Components/RightPartH'
 import SubNavbar from '../Components/SubNavbar'
 
 function News() {
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
   const data ={
     title:"News",
     subTitle:"News home",

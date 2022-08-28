@@ -1,9 +1,12 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import FeaturesComponents from '../Components/FeaturesPage/FeaturesComponents'
 import RightPartH from '../Components/RightPartH'
 import SubNavbar from '../Components/SubNavbar'
 
 function Features() {
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
   const data ={
     title:"Features",
     subTitle:"Features home",
