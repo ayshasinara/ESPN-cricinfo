@@ -20,7 +20,11 @@ function App() {
   return (
     <div className="App">
 
-  <TeamsPage/>
+      <SchedualFilter/>
+      <Navbar/>
+      <MainRoutes/>
+      <Footer/>
+      {/* <Scorecard/> */}
 
       </div>
   );

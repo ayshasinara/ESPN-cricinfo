@@ -4,10 +4,21 @@ import ReactPlayer from 'react-player'
 import Carousalbox from '../Components/Carousal/Carousal';
 
 import RightPartH from '../Components/RightPartH';
+import SubNavbar from '../Components/SubNavbar';
 
 const Videos = () => {
+    const data ={
+        title:"Video",
+        subTitle:"Video home",
+        data1:"Players in Focus",
+        data2:"T20 Timeout",
+        data3:"Hindi videos",
+        data4:"Match Day",
+        data5:"Han ya Naa"
+    }
   return (
     <div>
+        <SubNavbar iteam={data}/>
         <div className={styles.advertiseImg}>
         <img src="https://tpc.googlesyndication.com/simgad/4271044209677937619?" alt="ad-top" />
         </div>
