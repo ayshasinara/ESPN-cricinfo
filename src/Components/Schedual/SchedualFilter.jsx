@@ -24,7 +24,7 @@ export const SchedualFilter = () => {
 
   }
 
-console.log(match)
+console.log(data)
 
   useEffect(() => {
     dispatch(getData());
@@ -34,7 +34,7 @@ console.log(match)
   },[])
   return (
     <Box backgroundColor="rgb(3,152,220)" color="white">
-    <HStack  w="85%" m="auto">
+    <HStack  w="95%" m="auto">
       <Button
       size = "sm"
       backgroundColor="transparent"

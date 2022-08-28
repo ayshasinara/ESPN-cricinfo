@@ -1,10 +1,16 @@
 import React from 'react'
 import SubComponent from './SubComponent'
 import styled from 'styled-components'
+import { useNavigate } from 'react-router-dom'
 function SingleLiveTeam({iteam}) {
+  const navigate= useNavigate();
+
+  const handleScorecard=()=>{
+    navigate("/scorecard")
+  }
     
   return (
-    <div style={{ "border":"0.1px solid #eeeff2", "width":"100%"}}>
+    <div onClick={handleScorecard} style={{ "border":"0.1px solid #eeeff2", "width":"100%"}}>
         <HeadingWrapper>
         <div style={{"fontWeight":"bold", "fontSize":"10px"}}>RESULT</div>
         <div style={{"fontSize":"10px"}}>{iteam.date}</div>
