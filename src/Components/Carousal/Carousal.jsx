@@ -11,7 +11,7 @@ const Carousalbox = () => {
     ]
   return (
     <div className='carousel-wrapper'>
-        <Carousel breakPoints={Breakpoints}>
+        <Carousel pagination={false} breakPoints={Breakpoints}>
             <Card bgImage={"url(https://img1.hscicdn.com/image/upload/f_auto,t_ds_wide_w_640/lsci/db/PICTURES/CMS/336600/336674.jpg)"} src="https://img1.hscicdn.com/image/upload/f_auto/lsci/db/PICTURES/CMS/340800/340880.png" />
             <Card bgImage={"https://img1.hscicdn.com/image/upload/f_auto,t_ds_wide_w_640/lsci/db/PICTURES/CMS/336700/336705.jpg"} src="https://img1.hscicdn.com/image/upload/f_auto/lsci/db/PICTURES/CMS/340800/340881.png" />
             <Card bgImage={"https://img1.hscicdn.com/image/upload/f_auto,t_ds_wide_w_640/lsci/db/PICTURES/CMS/317700/317741.png"} src="https://img1.hscicdn.com/image/upload/f_auto/lsci/db/PICTURES/CMS/327300/327356.png" />

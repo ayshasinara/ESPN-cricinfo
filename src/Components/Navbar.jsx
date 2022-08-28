@@ -52,8 +52,8 @@ const Navbar = () => {
                     <nav role="navigation">
             <ul>
                 <li style={{backgroundColor:"#04c8f5"}} onClick={handleLiveScore} ><a style={{ color:"white"}}  >Live Scores</a>
-                <ul style={{boxShadow: "rgba(99, 99, 99, 0.2) 0px 2px 8px 0px", width:"200px"}}  class="dropdown">
-                    <li ><a style={{ width:"300px"}}  href="#">Live Scores Home</a></li>
+                <ul style={{boxShadow: "rgba(99, 99, 99, 0.2) 0px 2px 8px 0px", width:"200px", zIndex:3}}  class="dropdown">
+                    <li  ><a style={{ width:"300px"}}  href="#">Live Scores Home</a></li>
                     <li><a href="#">Week view</a></li>
                     <li><a href="#">Month view</a></li>
                     <li><a href="#">Season View</a></li>

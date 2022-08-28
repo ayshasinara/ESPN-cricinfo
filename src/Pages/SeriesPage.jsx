@@ -6,14 +6,15 @@ import RecentlyConcluded from "./SeriesTabs/RecentlyConcluded";
 
 const SeriesPage = () => {
   return (
-    <div>
+    <div >
    
       <Tabs  background={"#eeeeee"} >
         <TabList
           borderBottom={"2px solid #c7c7c7"}
           background={"white"}
-          width={"80%"}
-          marginLeft={"200px"}
+          width={"90%"}
+          margin={"auto"}
+          // marginLeft={"200px"}
           display={"flex"}
           justifyContent="space-around"
        

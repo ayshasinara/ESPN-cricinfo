@@ -14,8 +14,11 @@ import { Carousel1 } from './Components/Schedual/Carousel1';
 function App() {
   return (
     <div className="App">
-
+      <SchedualFilter/>
       <Navbar/>
+      <MainRoutes/>
+      <Footer/>
+      {/* <Scorecard/> */}
       </div>
   );
 

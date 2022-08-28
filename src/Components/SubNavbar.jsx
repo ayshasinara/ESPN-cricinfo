@@ -4,7 +4,7 @@ import styled from 'styled-components'
 function SubNavbar({ iteam }) {
     console.log(iteam)
     return (
-        <div style={{ "display": "flex", 'height': '10vh', 'padding': '20px' ,"boxShadow":'rgba(0, 0, 0, 0.05) 0px 1px 2px 0px',"position": "sticky","top": "0" , "backgroundColor":"white"}}>
+        <div style={{ "display": "flex", 'height': '10vh', 'padding': '20px' ,"boxShadow":'rgba(0, 0, 0, 0.05) 0px 1px 2px 0px',"position": "sticky","top": "0" ,zIndex:"2", "backgroundColor":"white"}}>
             <TitleWrapper>
                 {iteam.title}
             </TitleWrapper>
