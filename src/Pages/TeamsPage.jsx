@@ -7,10 +7,10 @@ function TeamsPage() {
   return (
 
     <div >
-      <img src="https://tpc.googlesyndication.com/simgad/13673083738639890423?" style={{"margin":'1% 11%'}}/>
-      <International/>
-      <Ipl/>
-      <PopulerWomens/>
+      <img src="https://tpc.googlesyndication.com/simgad/13673083738639890423?" style={{ "margin": '1% 11%' }} />
+      <International />
+      <Ipl />
+      <PopulerWomens />
     </div>
 
   )
