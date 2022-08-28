@@ -21,8 +21,13 @@ function News() {
      <img src="https://tpc.googlesyndication.com/simgad/16233217720762028300?" />
      </div>
     <div style={{'display':'flex'}}>
-    <NewsContainer/>
-    <RightPartH/>
+      <div style={{'width':'75%'}}>
+      <NewsContainer/>
+      </div>
+  <div style={{'width':'25%'}}>
+  <RightPartH/>
+  </div>
+  
     </div>
    
 

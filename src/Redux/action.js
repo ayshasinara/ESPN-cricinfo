@@ -55,5 +55,32 @@ const getDataMajor=()=>(dispatch)=>{
                     return dispatch({type:types.GET_FEATURES_REQUEST,payload:err})
                 })
             }
+            const getUpComingData=()=>(dispatch)=>{
+                dispatch({type:types.GET_UPCOMINGSUN_REQUEST});
+                return axios.get("http://localhost:8080/UpcomingSun")
+                
+                .then(res=>{
+                    
+                    return dispatch({type:types.GET_UPCOMINGSUN_SUCCESS,payload:res.data}
+                        );
+                   
+                    }).catch(err=>{
+                        return dispatch({type:types.GET_UPCOMINGSUN_REQUEST,payload:err})
+                    })
+                }
 
-export {getData,getDataMajor,getNewsData,getFeaturesData}
+                const getUpComingDataSat=()=>(dispatch)=>{
+                    dispatch({type:types.GET_UPCOMINGSAT_REQUEST});
+                    return axios.get("http://localhost:8080/UpcomingSat")
+                    
+                    .then(res=>{
+                        
+                        return dispatch({type:types.GET_UPCOMINGSAT_SUCCESS,payload:res.data}
+                            );
+                       
+                        }).catch(err=>{
+                            return dispatch({type:types.GET_UPCOMINGSAT_REQUEST,payload:err})
+                        })
+                    }
+
+export {getData,getDataMajor,getNewsData,getFeaturesData,getUpComingData,getUpComingDataSat}
