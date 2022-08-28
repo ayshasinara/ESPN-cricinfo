@@ -7,6 +7,7 @@ import Footer from './Pages/Footer';
 import News from './Pages/News';
 import { SchedualFilter } from './Components/Schedual/SchedualFilter';
 import MainRoutes from './Pages/MainRoutes';
+import { Carousel1 } from './Components/Schedual/Carousel1';
 
 
 
@@ -15,8 +16,6 @@ function App() {
     <div className="App">
 
       <Navbar/>
-      <MainRoutes/>
-      <Footer/>
       </div>
   );
 
