@@ -1,0 +1,264 @@
+.advertiseImg{
+    margin: auto;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+
+.advertiseImg>img{
+    width: 80%;
+}
+
+.homepageContainer{
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-between;
+     /* background-color: #F9F9FB; */
+}
+
+.homepageMain{
+ /* border: 1px solid blue; */
+ width: 80%;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+}
+
+.small_ad{
+    width: 99%;
+    height: 40px;
+    /* border: 1px solid black; */
+    margin-top: 20px;
+}
+
+.small_ad img{
+    width: 100%;
+    height: 40px;
+}
+
+.newsOne{
+    width: 99%;
+    /* height: 400px; */
+    /* border: 1px solid black; */
+    margin-top: 16px;
+    border-radius: 12px;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    padding-bottom: 6px;
+}
+
+.newsOne div{
+    overflow: hidden;
+}
+
+.newsOne img{
+    transition: 0.5s all ease-out;
+}
+
+.newsOne img:hover{
+    transform: scale(1.05)
+}
+.scoreTop{
+    border-bottom: 1px solid rgb(234, 234, 234);
+    height: 50px;
+    text-align: left;
+    margin-left: 16px;
+}
+
+.scoreTop h3{
+    font-size: 12px;
+    color: #2B2C2D;
+    font-weight: 700;
+    margin-top: 10px;
+    margin-right: 70%;
+}
+
+.scoreTop p{
+    font-size: 10px;
+    color: #6C6D6F;
+    font-weight: 400;
+    margin-right: 72%;
+}
+
+.scoreBox{
+    /* border: 1px solid red; */
+    margin-top: 8px;
+}
+
+.scoreBox img{
+    height: 20px;
+    width: 20px;
+}
+
+.scoreSA{
+    /* border: 1px solid green; */
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.scoreSA div{
+    /* border: 1px solid black; */
+    margin: 0px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.scoreSA h2{
+    color: #6C6D6F;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 0px 6px;
+}
+
+.scoreBox div h6{
+    font-size: 14px;
+    color: #2B2C2D;
+    width: 240PX;
+    margin-top: 6px;
+    font-weight: 400;
+    /* border: 1px solid blue; */
+}
+
+.vidPlayerBox{
+    width: 95%;
+    border-radius: 20px;
+    /* border: 1px solid red; */
+    margin: auto;
+    margin-top: 16px;
+    overflow: hidden;
+}
+
+.vidHeading{
+    /* border: 1px solid red; */
+    width: 95%;
+    margin: auto;
+    border-bottom:1px solid rgb(234, 234, 234)
+}
+
+.vidHeading h3{
+    font-size: 20px;
+    color: #2B2C2D;
+    font-weight: 700;
+    /* width: 90%;
+    border: 1px solid black; */
+    text-align: left;
+    margin-top: 10px;
+    margin-bottom: 10px;
+     ;
+}
+
+img:hover{
+    cursor: pointer;
+}
+
+.vidHeading p{
+    font-size: 14px ;
+    color:#6C6D6F ;
+    font-weight:400 ;
+    text-align: left;
+}
+
+.hozNewsSnippet{
+    /* border: 1px solid black; */
+    width: 95%;
+    height: 120px;
+    margin: auto;
+    margin-top: 16px;
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+}
+
+.hozNewsSnippetLeft{
+    width: 33%;
+    height: 100%;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hozNewsSnippetLeft img{
+    height: 99%;
+    width: 100%;
+    border-radius: 12px;
+}
+
+.hozNewsSnippetRight{
+    width: 65%;
+    height: 100%;
+    /* border: 1px solid blue; */
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.hozNewsSnippetRight h2{
+    font-size: 16px ;
+    color:#2B2C2D ;
+    font-weight:700 ;
+}
+.hozNewsSnippetRight p{
+    font-size: 14px ;
+    color:#6C6D6F ;
+    font-weight:400 ;
+}
+.hozNewsSnippetRight h3{
+    font-size: 16px ;
+    color:#48494A ;
+    font-weight:600 ;
+}
+
+.hozNewsSnippetGrid{
+    width: 95%;
+    /* border: 1px solid black; */
+    border-top: 1px solid rgb(234, 234, 234);
+    margin: auto;
+    margin-top: 16px;
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+}
+
+.hozNewsSnippetGrid div{
+    width: 32%;
+}
+
+.hozNewsSnippetGrid img{
+    height: 120px;
+    width: 100%;
+    border-radius: 12px;
+    margin-top: 10px;
+}
+
+.hozNewsSnippetGrid h4{
+    font-size: 15px ;
+    color:#2B2C2D;
+    font-weight:500 ;
+}
+
+.mainImg{
+    width: 95%;
+    margin: auto;
+    /* border: 1px solid red; */
+    margin-top: 10px;
+    height: 360px;
+    border-radius: 16px;
+    overflow:hidden
+}
+
+.mainImg img{
+    width: 100%;
+    height: 100%;
+    border-radius: 16px;
+    transition: 0.5s all ease-out;
+}
+
+.mainImg img:hover{
+    transform: scale(1.05)
+}
