@@ -22,7 +22,6 @@ The project has been completed within the duration of 5 days. Each of us had sha
 - Json-Server
 - Chakra UI
 - Styled Components
-- Protected Routes(only accesible after login)
 - Responsiveness
 
 
