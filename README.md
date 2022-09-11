@@ -3,9 +3,8 @@
 ## Team members:
 1. Aysha Sinara
 2. Vedant Pawar
-3. Aysha Sinara
-4. Swapnil Parchake
-5. Swati Sharma
+3. Swapnil Parchake
+4. Swati Sharma
 
 ## Project Details:
 ESPN cricinfo is a sports news website exclusively for the game of cricket. The site features news, articles, live coverage of cricket matches, and StatsGuru, a database of historical matches and players from the 18th century to the present.
