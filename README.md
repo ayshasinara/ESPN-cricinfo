@@ -13,7 +13,7 @@ The project has been completed within the duration of 5 days. Each of us had sha
 
 **Original website link**: https://www.espncricinfo.com/
 
-**Link of our deployed project**:https://cricinfo-clone.netlify.app/livescores
+**Link of our deployed project**:https://cricinfo-clone.netlify.app/
 
 ## Tech Stack and features
 - React
