@@ -28,14 +28,14 @@ The project has been completed within the duration of 5 days. Each of us had sha
 
 ## Glimpse and screenshots of our cloned website:
 **Landing Page**
-![App Screenshot](https://github.com/vedantpawar18/ceaseless-zebra-5788/blob/master/screenshots/landingPage.png)
+![App Screenshot][(https://github.com/vedantpawar18/ceaseless-zebra-5788/blob/master/screenshots/landingPage.png)]
 
 **Live Scores Page**
-![App Screenshot](https://github.com/vedantpawar18/ceaseless-zebra-5788/blob/master/screenshots/livePage.png)
+![App Screenshot][(https://github.com/vedantpawar18/ceaseless-zebra-5788/blob/master/screenshots/livePage.png)]
 
 **News Page**
-![App Screenshot](https://github.com/vedantpawar18/ceaseless-zebra-5788/blob/master/screenshots/newsPage.png)
+![App Screenshot][(https://github.com/vedantpawar18/ceaseless-zebra-5788/blob/master/screenshots/newsPage.png)]
 
 **Video Page**
-![App Screenshot](https://github.com/vedantpawar18/ceaseless-zebra-5788/blob/master/screenshots/videoPage.png)
+![App Screenshot][(https://github.com/vedantpawar18/ceaseless-zebra-5788/blob/master/screenshots/videoPage.png)]
 
