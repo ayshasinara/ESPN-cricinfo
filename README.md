@@ -30,6 +30,8 @@ The project has been completed within the duration of 5 days. Each of us had sha
 **Landing Page**
 ![App Screenshot](https://github.com/vedantpawar18/ceaseless-zebra-5788/blob/master/screenshots/landingPage.png)
 
+##
+
 **Live Scores Page**
 ![App Screenshot](https://github.com/vedantpawar18/ceaseless-zebra-5788/blob/master/screenshots/livePage.png)
 
