@@ -4,7 +4,7 @@ import * as types from "./actionType";
 const getData = () => (dispatch) =>{
 dispatch({type: types.GET_DATA_REQUEST});
 return axios
-.get("https://cricinfodata.herokuapp.com/TopEvenet1")
+.get("https://cricinfodata.onrender.com/TopEvenet1")
 .then ((r)=>{
     dispatch({type: types.GET_DATA_SUCCESS, payload: r.data});
 })
@@ -17,7 +17,7 @@ return axios
 const mvpData = () => (dispatch) =>{
     dispatch({type: types.MVP_DATA_REQUEST});
     return axios
-    .get(" https://cricinfodata.herokuapp.com/londonvswelsh")
+    .get("https://cricinfodata.onrender.com/londonvswelsh")
     .then ((r)=>{
         dispatch({type: types.MVP_DATA_SUCCESS, payload: r.data});
     })
@@ -29,7 +29,7 @@ const mvpData = () => (dispatch) =>{
     const battingData = () => (dispatch) =>{
         dispatch({type: types.BATTING_DATA_REQUEST});
         return axios
-        .get(" https://cricinfodata.herokuapp.com/batting1")
+        .get("https://cricinfodata.onrender.com/batting1")
         .then ((r)=>{
             dispatch({type: types.BATTING_DATA_SUCCESS, payload: r.data});
         })
@@ -41,7 +41,7 @@ const mvpData = () => (dispatch) =>{
         const bowlingData = () => (dispatch) =>{
             dispatch({type: types.BOWLING_DATA_REQUEST});
             return axios
-            .get(" https://cricinfodata.herokuapp.com/bowling")
+            .get("https://cricinfodata.onrender.com/bowling")
             .then ((r)=>{
                 dispatch({type: types.BOWLING_DATA_SUCCESS, payload: r.data});
             })
@@ -53,7 +53,7 @@ const mvpData = () => (dispatch) =>{
             const batting2Data = () => (dispatch) =>{
                 dispatch({type: types.BATTING2_DATA_REQUEST});
                 return axios
-                .get(" https://cricinfodata.herokuapp.com/batting2")
+                .get(" https://cricinfodata.onrender.com/batting2")
                 .then ((r)=>{
                     dispatch({type: types.BATTING2_DATA_SUCCESS, payload: r.data});
                 })
@@ -65,7 +65,7 @@ const mvpData = () => (dispatch) =>{
                 const bowling2Data = () => (dispatch) =>{
                     dispatch({type: types.BOWLING2_DATA_REQUEST});
                     return axios
-                    .get(" https://cricinfodata.herokuapp.com/bowling2")
+                    .get(" https://cricinfodata.onrender.com/bowling2")
                     .then ((r)=>{
                         dispatch({type: types.BOWLING2_DATA_SUCCESS, payload: r.data});
                     })
@@ -77,7 +77,7 @@ const mvpData = () => (dispatch) =>{
 const filterData = (legue, payload)=>(dispatch)=>{
     dispatch({type: types.FILTER_DATA_REQUEST});
     return axios
-    .get(`https://cricinfodata.herokuapp.com/TopEvenet1?legue=${legue}`, payload)
+    .get(`https://cricinfodata.onrender.com/TopEvenet1?legue=${legue}`, payload)
     .then((res)=>{
         dispatch({type: types.FILTER_DATA_SUCCESS, payload: res});
     })

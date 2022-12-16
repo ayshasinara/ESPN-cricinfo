@@ -3,7 +3,7 @@ import * as types from './actionTypes';
 
 const getData=()=>(dispatch)=>{
 dispatch({type:types.GET_TOPEVENT_REQUEST});
-return axios.get("https://cricinfodata.herokuapp.com/TopEvenet")
+return axios.get("https://cricinfodata.onrender.com/TopEvenet")
 
 .then(res=>{
     
@@ -16,7 +16,7 @@ return axios.get("https://cricinfodata.herokuapp.com/TopEvenet")
 }
 const getDataMajor=()=>(dispatch)=>{
     dispatch({type:types.GET_MAJOR_REQUEST});
-    return axios.get("https://cricinfodata.herokuapp.com/majorTournament")
+    return axios.get("https://cricinfodata.onrender.com/majorTournament")
     
     .then(res=>{
         
@@ -30,7 +30,7 @@ const getDataMajor=()=>(dispatch)=>{
 
     const getNewsData=()=>(dispatch)=>{
         dispatch({type:types.GET_NEWS_REQUEST});
-        return axios.get("https://cricinfodata.herokuapp.com/newsdata")
+        return axios.get("https://cricinfodata.onrender.com/newsdata")
         
         .then(res=>{
             
@@ -44,7 +44,7 @@ const getDataMajor=()=>(dispatch)=>{
 
         const getFeaturesData=()=>(dispatch)=>{
             dispatch({type:types.GET_FEATURES_REQUEST});
-            return axios.get("https://cricinfodata.herokuapp.com/featuresdata")
+            return axios.get("https://cricinfodata.onrender.com/featuresdata")
             
             .then(res=>{
                 
@@ -57,7 +57,7 @@ const getDataMajor=()=>(dispatch)=>{
             }
             const getUpComingData=()=>(dispatch)=>{
                 dispatch({type:types.GET_UPCOMINGSUN_REQUEST});
-                return axios.get("https://cricinfodata.herokuapp.com/UpcomingSun")
+                return axios.get("https://cricinfodata.onrender.com/UpcomingSun")
                 
                 .then(res=>{
                     
@@ -71,7 +71,7 @@ const getDataMajor=()=>(dispatch)=>{
 
                 const getUpComingDataSat=()=>(dispatch)=>{
                     dispatch({type:types.GET_UPCOMINGSAT_REQUEST});
-                    return axios.get("https://cricinfodata.herokuapp.com/UpcomingSat")
+                    return axios.get("https://cricinfodata.onrender.com/UpcomingSat")
                     
                     .then(res=>{
                         

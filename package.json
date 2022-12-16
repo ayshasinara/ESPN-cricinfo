@@ -2,7 +2,7 @@
   "name": "cricinfo",
   "version": "0.1.0",
   "private": true,
-  "homepage": ".",
+  "homepage": "http://.",
   "dependencies": {
     "@chakra-ui/icons": "^2.0.9",
     "@chakra-ui/react": "^2.2.8",
@@ -52,5 +52,17 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "description": "1. Aysha Sinara\r 2. Vedant Pawar\r 3. Swapnil Parchake\r 4. Swati Sharma",
+  "main": "index.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ayshasinara/ESPN-cricinfo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ayshasinara/ESPN-cricinfo/issues"
   }
 }
